@@ -4,6 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>footwear__lb | Premium Clothing Store</title>
+    <meta name="theme-color" content="#F39E2F">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="footwear__lb">
+    <link rel="icon" type="image/jpeg" href="assets/logo.jpg">
+    <link rel="apple-touch-icon" href="assets/logo.jpg">
+    <link rel="manifest" href="manifest.webmanifest">
     
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -427,10 +433,12 @@
                 {/* Navigation */}
                 <nav className="sticky top-0 z-50 backdrop-blur-md border-b border-gray-800 bg-opacity-95" style={{ backgroundColor: COLORS.onyx }}>
                     <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-                    <div className="flex items-center gap-2">
-                        <div className="w-10 h-10 rounded-full flex items-center justify-center font-bold text-xl text-black" style={{ background: COLORS.goldenOrange }}>
-                        F
-                        </div>
+                    <div className="flex items-center gap-3">
+                        <img
+                        src="assets/logo.jpg"
+                        alt="footwear__lb logo"
+                        className="w-12 h-12 rounded-full object-cover border-2 border-gray-800 shadow-lg"
+                        />
                         <span className="text-xl font-bold tracking-tight text-white">{STORE_NAME}</span>
                     </div>
 
